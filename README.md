@@ -1,4 +1,4 @@
 # felip.github.io
-CFGS Administració de Sistemes Informàtics en Xarxa
-Implantació de Sistemes Operatius
+CFGS Administració de Sistemes Informàtics en Xarxa <br>
+Implantació de Sistemes Operatius <br>
 Felip i Toni
