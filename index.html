@@ -1,1 +1,76 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='//fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Dekko';font-size: 20px;
+    background-color: black;
+}
+.button {
+  border-radius: 4px;
+  background-color: #335BFF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 7px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.center {
+    margin: auto;
+    width: 22%;
+    padding: 20px;
+        }
+
+</style>
+</head>
+<body>
+
+<p>
+    <font color="white">
+        <h1 style="text-align:center">Hola món!</h1>
+        <div class="center">
+ 
+
+            <br>
+            <br>
+
+            <a href="/contacte.html" target="_blank"><button class="button"><span>CONTACTE  </span></button></a> <br>
+
+            <a href="/copyright.html" target="_blank"><button class="button"><span>COPYRIGHT  </span></button></a> <br>
+
+            <a href="/horari.html" target="_blank"><button class="button"><span>HORARI  </span></button></a> <br>
+
+            <a href="/servei.html" target="_blank"><button class="button"><span>SERVEI  </span></button></a> <br>
+            </p>
+
+
+
+
+</body>
+</html>
